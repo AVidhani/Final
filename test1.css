@@ -1,0 +1,64 @@
+body{
+    background-image:url('giphy.gif');
+    
+    background-size:cover;
+}
+#home{
+    position: absolute;
+    top:90%;
+}
+#heading{
+    color:darkblue;
+    text-align: center;
+}
+#tb{
+    display: hidden;
+    cursor:pointer;
+    border-style: hidden;
+    border:none;
+    font-weight: bold;
+    font-style: normal;
+    font-size:20px;
+
+}
+#questions{
+    font-weight: bold;
+    color: darkgreen;
+}
+.num{
+    border-style:outset;
+    color:darkblue;
+}
+#msg{
+    font-weight: bold;
+    font-size: 30px;
+}
+.disabled:hover{
+    cursor:not-allowed;
+}
+.disabled{
+    color:red;
+    opacity: 0.5;
+    pointer-events: none;
+}
+#QuesNum{
+    color:black;
+}
+#questions{
+    position:absolute;
+    left:50%;
+    top:20%;
+    font-size: 40px;
+}
+#ans{
+    display:hidden;
+    position:absolute;
+    left:50%;
+    top:40%;
+}
+#holder{
+   position: absolute;
+    top:10%;
+    left:0px;
+    
+}

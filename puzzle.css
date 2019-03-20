@@ -1,0 +1,69 @@
+body{
+    background-image:url(alphaBg.jpg);
+}
+#home{
+    position: absolute;
+    top:90%;
+}
+.box{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    cursor:pointer;
+
+}
+.Nobox{
+    width: 40px;
+    height: 40px;
+    cursor:none;
+    background-color: black;
+        
+}
+#puzzle{
+    position:absolute;
+    left:40%;
+    margin:auto;
+    top:20%;
+}
+#hint{
+   position: absolute;
+    left:40%;
+    margin:auto;
+    top:60%;
+    color:red;
+    font-size: 25px; 
+    font-weight: bold;
+}
+#buttons{
+    left:40%;
+    position: absolute;
+    bottom:10%;
+   
+}
+#Rcell{
+    background-color:darkblue;
+    color:white;
+    width:150Px;
+    height: 30px;
+    font-family:monospace;
+    font-size:20px;
+    
+}
+#Rword{
+    background-color:darkblue;
+    color:white;
+    width:150Px;
+    height: 30px;
+    font-family:monospace;
+    font-size:20px;
+    
+}
+#checkWord{
+    background-color:darkblue;
+    color:white;
+    width:150Px;
+    height: 30px;
+    font-family:monospace;
+    font-size:20px;
+}

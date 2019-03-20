@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title> Counter </title>
+        <link href="test1.css" rel="stylesheet">
+        <h1 id='heading'> You will have 5 seconds to answer each question.  All the Best!</h1>
+    </head>
+    <body>
+        <div id="wrapper">   
+            <!--           div to hold the questions-->
+            <div id="questions">
+                <span id="QuesNum"></span><p id="ques"></p>
+            </div><br>
+            
+            <!--            div to hold the answers-->
+            <div id="ans">
+                <br><br>
+                <table id="tb" border=1 >
+                    <tr>
+                        <td class = "num" id="one" style="text-align: center" width='50px'></td>
+                         <td class = "num" id="two" style="text-align: center" width='50px'></td>
+                         <td class = "num" id="three" style="text-align: center" width='50px'></td>
+                         <td class = "num" id="four" style="text-align: center" width='50px'></td>
+                    </tr>
+                </table><br>
+                <p id="msg"></p>
+            </div>
+            <!--            div to hold the timer and number of seconds-->
+            <div id="holder">
+                <p><span id="seconds"></span></p>
+                <p id="timeHolder"><img id="timer" ></p>
+            <!--              div for home link  -->
+            </div>
+            <div id="home"><a href="homePage.html">Home</a></div>
+        </div>
+        
+    </body>
+     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Test.js"></script>
+</html>
